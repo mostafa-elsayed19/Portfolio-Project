@@ -1,0 +1,11 @@
+/user
+/.post(user)
+/:id.patch(updateUser).delete(deleteUser).get(getUserById)
+
+
+
+
+
+/project
+/:userId.post(createProject).get(getProjectByUserId)
+/:projectId.patch(updateProject).delete(deleteProject)
